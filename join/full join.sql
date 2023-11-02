@@ -1,0 +1,4 @@
+-- Full join
+select CLIENT_MASTER.*, SALES_ORDER.* from SALES_ORDER
+inner join CLIENT_MASTER on SALES_ORDER.CLIENTN0 = CLIENT_MASTER.clientn0;
+
